@@ -19,7 +19,8 @@ a:hover, a:focus, a:active {
 
 
 header {
-  	background-color: #CAB67C;
+  	background: #CAB67C;
+	color: #000 !important;
 	position: fixed;
 	width: 100%;
 	height: 125px;
@@ -43,7 +44,7 @@ header .marginA {
 header a {
 	float: left;
 	display: block;
-  	color: #000;
+  	color: #000 !important;
   	text-align: center;
   	padding: 19px 30px;
   	text-decoration: none;
@@ -53,7 +54,7 @@ header a {
 }
 header a:hover {
   	background-color: #ddd;
-  	color: 000;
+  	color: #000;
 	transition: all 0.3s ease;
 }
 .active {
