@@ -1,0 +1,26 @@
+#aboutcont {
+	margin-left: 50px;
+	margin-top: 15%; /*header stuff idk*/
+	width: 75%;
+	text-align: left;
+}
+.abh {
+	text-decoration: underline;
+}
+.abdiv {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.imgr, .imgl {
+	width: 40%;
+	margin-top: 15px;
+}
+.imgl {
+	float: left;
+	margin-left: 50px;
+}
+.imgr {
+	float: right;
+	margin-right: 50px;
+}
