@@ -1,3 +1,4 @@
+/* about */
 #aboutcont {
 	margin-left: 50px;
 	margin-top: 15%; /*header stuff idk*/
@@ -23,4 +24,21 @@
 .imgr {
 	float: right;
 	margin-right: 50px;
+}
+
+/* new */
+#newcont {
+	margin: 0 auto;
+	margin-top: 15%;
+	width: 90%;
+	background: lightgray;
+	color: #000;
+}
+.newitem > .itemimgl, .itemdescl {
+	width: 40%;
+	float: left;
+}
+.newitem > .itemimgr, .itemdescr {
+	width: 40%;
+	float: right;
 }

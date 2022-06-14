@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	background: #E6CA7B;
 	font-family: Arial, sans-serif;
+	overflow-x: hidden;
 }
 a, a:visited {
 	transition: all 0.3s ease;
@@ -60,7 +61,6 @@ header a:hover {
 .active {
 	text-decoration: underline;
 }
-
 
 footer {
 	position: fixed;
