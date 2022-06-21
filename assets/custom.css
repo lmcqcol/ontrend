@@ -1,7 +1,7 @@
 /* about */
 #aboutcont {
 	margin-left: 50px;
-	margin-top: 15%; /*header stuff idk*/
+	margin-top: 13%; /*header stuff idk*/
 	width: 75%;
 	text-align: left;
 }
@@ -31,7 +31,7 @@
 /* vacancies */
 #vaccont {
 	margin-left: 50px;
-	margin-top: 15%; /*header stuff idk*/
+	margin-top: 13%; /*header stuff idk*/
 	width: 75%;
 	text-align: left;
 }
@@ -45,4 +45,65 @@
 }
 .vacinfo {
 	font-size: 1.5em;
+}
+
+#vaclist {
+	margin-left: 15px;
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+#vaclist > li {
+	margin-left: 25px;
+}
+
+.vacdl {
+	margin-left: 50px;
+	font-size: 1.5em;
+}
+.vacdl > a {
+	color: #000;
+}
+.vacdl > a:hover {
+	color: gray;
+}
+
+#vacapply {
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.vacad > a {
+	color: #000;
+}
+.vacad > a:hover {
+	color: gray;
+}
+
+/*----------*/
+
+/* contact */
+#contactcont {
+	margin-left: 50px;
+	margin-top: 13%; /*header stuff idk*/
+	width: 75%;
+	text-align: left;
+}
+.conti {
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.conti > a {
+	color: #000;
+}
+.conti > a:hover {
+	color: gray;
+}
+
+.contiframe {
+	float: right;
+	margin-right: 50px;
 }
