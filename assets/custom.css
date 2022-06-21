@@ -26,19 +26,23 @@
 	margin-right: 50px;
 }
 
-/* new */
-#newcont {
-	margin: 0 auto;
-	margin-top: 15%;
-	width: 90%;
-	background: lightgray;
-	color: #000;
+/*----------*/
+
+/* vacancies */
+#vaccont {
+	margin-left: 50px;
+	margin-top: 15%; /*header stuff idk*/
+	width: 75%;
+	text-align: left;
 }
-.newitem > .itemimgl, .itemdescl {
-	width: 40%;
-	float: left;
+.vach {
+	text-decoration: underline;
 }
-.newitem > .itemimgr, .itemdescr {
-	width: 40%;
-	float: right;
+.vacclose {
+	font-size: 1.2em;
+	margin-top: -15px;
+	margin-bottom: 25px;
+}
+.vacinfo {
+	font-size: 1.5em;
 }

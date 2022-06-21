@@ -3,6 +3,8 @@ body {
 	background: #E6CA7B;
 	font-family: Arial, sans-serif;
 	overflow-x: hidden;
+	min-width: 1280px
+	width: 1280px
 }
 a, a:visited {
 	transition: all 0.3s ease;
