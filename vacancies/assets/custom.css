@@ -1,0 +1,59 @@
+#vaccont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
+	text-align: left;
+}
+.vacclose {
+	font-size: 1.2em;
+	margin-top: -15px;
+	margin-bottom: 25px;
+}
+.vacinfo {
+	font-size: 1.5em;
+}
+
+#vaclist {
+	margin-left: 15px;
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+#vaclist > li {
+	margin-left: 25px;
+}
+
+.vacdl {
+	margin-left: 50px;
+	font-size: 1.5em;
+}
+.vacdl > a {
+	color: #000;
+}
+.vacdl > a:hover {
+	color: gray;
+}
+
+#vacapply {
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.vacad > a {
+	color: #000;
+}
+.vacad > a:hover {
+	color: gray;
+}
+
+
+@media only screen and (max-width: 1280px){
+	#vaccont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 75%;
+		text-align: left;
+	}
+}

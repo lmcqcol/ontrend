@@ -1,0 +1,45 @@
+#teamcont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
+	text-align: left;
+}
+
+#staffcont {
+    display: table-cell;
+	width: 500px;
+	padding-right: 50px;
+}
+#staffcont img {
+    float: left;
+	padding-right: 15px;
+	width: 250px;
+}
+#staffcont .staffname {
+	font-size: 1.35em;
+}
+#staffcont .stafftitle {
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1280px){
+    #teamcont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 75%;
+		text-align: left;
+	}
+	#teamcont #fourthree {
+		display: block !important;
+		margin: 0 auto !important;
+		text-align: center !important;
+		padding-left: 100px;
+		padding-top: 30px;
+	}
+	#fourthree #staffcont {
+		width: 250px;
+		padding-right: 100px;
+	}
+}

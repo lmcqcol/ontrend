@@ -1,0 +1,35 @@
+#contactcont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
+	text-align: left;
+}
+.conti {
+	width: 75%;
+	text-align: left;
+	font-size: 1.5em;
+}
+.conti > a {
+	color: #000;
+}
+.conti > a:hover {
+	color: gray;
+}
+
+.contiframe {
+	float: right;
+	margin-right: 50px;
+}
+
+
+@media only screen and (max-width: 1280px){
+    #contactcont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 75%;
+		text-align: left;
+	}
+	iframe {
+		width: 650px;
+	}
+}
