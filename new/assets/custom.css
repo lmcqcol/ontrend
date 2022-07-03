@@ -1,0 +1,31 @@
+#newcont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+    margin-bottom: 100px;
+	width: 90%;
+}
+
+#newitem {
+    display: inline-block;
+    background: lightgray;
+    border-radius: 15px;
+    width: 500px;
+    height: 400px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.newpad {
+    padding: 15px;
+}
+
+.newimg {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+}
+.newitemdesc {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+}

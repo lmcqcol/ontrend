@@ -71,58 +71,22 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background: #B8A26280;
+	backdrop-filter: blur(5px);
 	color: white;
 }
-footer ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-footer .item1, .item2 {
-	color: #000;
-	font-weight: bold;
-	font-size: 1.1em;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-footer .item1 {
-	padding-left: 15px;
-	float: left;
-}
-footer .item2 {
-	padding-right: 15px;
-	float: right;
-}
-footer .item2 > a, a:visited {
+footer div {
+	padding: 5px;
+	padding-left: 10px;
 	color: #000;
 }
-footer .item2 > a:hover, a:focus, a:active {
-	color: gray;
-}
-
 
 
 @media only screen and (max-width: 1280px){
     body {
-		min-width: 1280px;
+		max-width: 1280px;
 		width: 1280px;
 	}
 	header .marginA {
 		margin-left: 250px;
-	}
-	footer .item1, .item2 {
-		color: #000;
-		font-weight: bold;
-		font-size: 1.1em;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	footer .item1 {
-		padding-left: 10px;
-		float: left;
-	}
-	footer .item2 {
-		padding-right: 10px;
-		float: right;
 	}
 }

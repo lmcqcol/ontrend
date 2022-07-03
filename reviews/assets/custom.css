@@ -1,0 +1,59 @@
+#revcont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+    margin-bottom: 100px;
+	width: 90%;
+	text-align: left;
+}
+
+#revrcont {
+    background: lightgray;
+    border-radius: 15px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#revpad {
+    padding: 15px;
+}
+svg {
+    width: 30px;
+    padding-top: 5px;
+}
+.revimg {
+    display: block;
+    width: 250px;
+    float: right;
+}
+
+.revdate {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.revname {
+    font-size: 1.4em;
+}
+.revdivider {
+    width: 17%;
+    height: 5px;
+    background: darkgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.revtitle {
+    font-size: 1.3em;
+}
+.revdesc {
+    font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 1280px){
+    #revcont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 85%;
+		text-align: left;
+	}
+}
