@@ -29,3 +29,13 @@
     padding-top: 10px;
     font-size: 1.5em;
 }
+
+
+@media only screen and (max-width: 1280px){
+    #newcont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 90%;
+		text-align: left;
+	}
+}
