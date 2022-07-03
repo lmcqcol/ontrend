@@ -35,3 +35,23 @@
 		margin-top: 15px;
 	}
 }
+
+@media only screen and (max-width: 1080px){
+    #aboutcont {
+		margin-left: 50px;
+		margin-top: 15%;
+		width: 90%;
+		text-align: left;
+	}
+	#aboutcont h1 {
+		font-size: 3.5em;
+	}
+	.abdiv {
+		font-size: 2.5em;
+		margin-bottom: 25px;
+	}
+	.imgr, .imgl {
+		width: 45%;
+		margin-top: 15px;
+	}
+}

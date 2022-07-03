@@ -19,6 +19,12 @@
 .contiframe {
 	float: right;
 	margin-right: 50px;
+	width: 1050px;
+	height: 650px;
+}
+.contiframe_mobile {
+	display: none;
+	visibility: hidden;
 }
 
 
@@ -31,5 +37,34 @@
 	}
 	iframe {
 		width: 650px;
+		height: 650px;
+	}
+}
+
+@media only screen and (max-width: 1080px){
+    #contactcont {
+		margin-left: 50px;
+		margin-top: 15%;
+		width: 90%;
+		text-align: left;
+	}
+	#contactcont h1 {
+		font-size: 3.5em;
+	}
+	.conti {
+		font-size: 2.5em;
+		margin-bottom: 25px;
+	}
+	.contiframe {
+		display: none;
+		visibility: hidden;
+	}
+	.contiframe_mobile {
+		display: block;
+		visibility: visible;
+		margin: 0 auto;
+		width: 85%;
+		height: 45%;
+		margin-top: 30px;
 	}
 }

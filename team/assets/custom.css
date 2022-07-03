@@ -43,3 +43,41 @@
 		padding-right: 100px;
 	}
 }
+
+@media only screen and (max-width: 1080px){
+    #teamcont {
+		margin-left: 50px;
+		margin-top: 15%;
+		width: 90%;
+		text-align: left;
+		margin-bottom: 150px;
+	}
+	#teamcont h1 {
+		font-size: 3.5em;
+	}
+	#staffcont {
+		display: block;
+		width: 1000px;
+		padding-right: 0px;
+		margin: 0 auto;
+	}
+	#staffcont img {
+		width: 500px;
+		margin-left: -100px;
+	}
+	#staffcont .staffname {
+		font-size: 2.35em;
+	}
+	#staffcont .stafftitle {
+		font-size: 2.2em;
+		padding-bottom: 10px;
+		width: 900px;
+		margin-left: -300px;
+	}
+	#staffcont .staffdesc {
+		font-size: 2.35em;
+		width: 900px;
+		margin-left: -300px;
+		padding-bottom: 100px;
+	}
+}

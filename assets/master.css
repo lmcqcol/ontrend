@@ -90,3 +90,30 @@ footer div {
 		margin-left: 250px;
 	}
 }
+
+@media only screen and (max-width: 1080px){
+    body {
+		max-width: 1080px;
+		width: 1080px;
+	}
+
+	header {
+		font-size: 2em;
+	}
+	header a {
+		padding: 5px 20px;
+		transform: translateY(55%);
+	}
+	header .marginA {
+		margin-left: 15px;
+	}
+	header img {
+		display: none;
+	}
+
+	footer div {
+		font-size: 2em;
+		padding: 15px;
+		padding-left: 20px;
+	}
+}

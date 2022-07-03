@@ -57,3 +57,56 @@ svg {
 		text-align: left;
 	}
 }
+
+@media only screen and (max-width: 1080px){
+    #revcont {
+		margin-left: 50px;
+		margin-top: 15%;
+		width: 90%;
+		text-align: left;
+	}
+	#revcont h1 {
+		font-size: 3.5em;
+	}
+    #revrcont {
+        background: lightgray;
+        border-radius: 15px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    #revpad {
+        padding: 10px;
+    }
+    svg {
+        width: 50px;
+        padding-top: 5px;
+    }
+    .revimg {
+        display: block;
+        width: 300px;
+        float: right;
+    }
+    .revdate {
+        font-weight: bold;
+        font-size: 1.9em;
+    }
+    .revname {
+        font-size: 1.9em;
+    }
+    .revdivider {
+        width: 37%;
+        height: 5px;
+        background: darkgray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+    .revtitle {
+        font-size: 1.8em;
+    }
+    .revdesc {
+        font-size: 1.7em;
+        width: 60%;
+    }
+}
+
