@@ -1,12 +1,9 @@
 /* about */
 #aboutcont {
 	margin-left: 50px;
-	margin-top: 13%; /*header stuff idk*/
-	width: 75%;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
 	text-align: left;
-}
-.abh {
-	text-decoration: underline;
 }
 .abdiv {
 	font-size: 1.5em;
@@ -15,7 +12,7 @@
 
 .imgr, .imgl {
 	width: 40%;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 .imgl {
 	float: left;
@@ -26,17 +23,13 @@
 	margin-right: 50px;
 }
 
-/*----------*/
 
 /* vacancies */
 #vaccont {
 	margin-left: 50px;
-	margin-top: 13%; /*header stuff idk*/
-	width: 75%;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
 	text-align: left;
-}
-.vach {
-	text-decoration: underline;
 }
 .vacclose {
 	font-size: 1.2em;
@@ -82,13 +75,12 @@
 	color: gray;
 }
 
-/*----------*/
 
 /* contact */
 #contactcont {
 	margin-left: 50px;
-	margin-top: 13%; /*header stuff idk*/
-	width: 75%;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
 	text-align: left;
 }
 .conti {
@@ -106,4 +98,59 @@
 .contiframe {
 	float: right;
 	margin-right: 50px;
+}
+
+/* team */
+#teamcont {
+	margin-left: 50px;
+	margin-top: 10%; /*header stuff idk*/
+	width: 90%;
+	text-align: left;
+}
+
+#staffcont {
+    display: table-cell;
+	width: 500px;
+	padding-right: 50px;
+}
+#staffcont img {
+    float: left;
+	padding-right: 15px;
+	width: 250px;
+}
+#staffcont .staffname {
+	font-size: 1.35em;
+}
+#staffcont .stafftitle {
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1280px){
+    #aboutcont, #vaccont, #contactcont, #teamcont {
+		margin-left: 50px;
+		margin-top: 13%;
+		width: 75%;
+		text-align: left;
+	}
+	.imgr, .imgl {
+		width: 40%;
+		margin-top: 15px;
+	}
+
+	#teamcont #fourthree {
+		display: block !important;
+		margin: 0 auto !important;
+		text-align: center !important;
+		padding-left: 100px;
+		padding-top: 30px;
+	}
+	#fourthree #staffcont {
+		width: 250px;
+		padding-right: 100px;
+	}
+	iframe {
+		width: 650px;
+	}
 }

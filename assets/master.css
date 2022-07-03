@@ -1,11 +1,11 @@
 body {
 	margin: 0;
+	padding: 0;
 	background: #E6CA7B;
 	font-family: Arial, sans-serif;
 	overflow-x: hidden;
-	min-width: 1280px
-	width: 1280px
 }
+
 a, a:visited {
 	transition: all 0.3s ease;
 	color: #fff;
@@ -26,7 +26,7 @@ header {
 	color: #000 !important;
 	position: fixed;
 	width: 100%;
-	height: 125px;
+	height: 135px;
 	top: 0;
 	text-transform: capitalize;
 }
@@ -34,15 +34,15 @@ header img {
 	float: right;
 	width: 115px;
 	transition: all 0.5s ease;
-	margin-right: 5px;
-	margin-top: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
 }
 header img:hover {
 	border-radius: 25%;
 	transition: all 0.5s ease;
 }
 header .marginA {
-	margin-left: 250px;
+	margin-left: 28%;
 }
 header a {
 	float: left;
@@ -52,7 +52,7 @@ header a {
   	padding: 19px 30px;
   	text-decoration: none;
   	font-size: 1.3em;
-	transform: translateY(50%);
+	transform: translateY(55%);
 	transition: all 0.3s ease;
 }
 header a:hover {
@@ -64,20 +64,65 @@ header a:hover {
 	text-decoration: underline;
 }
 
+
 footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.2);
+	background: #B8A26280;
 	color: white;
-	text-align: left;
 }
-footer .fdiv {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 15px;
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+footer .item1, .item2 {
 	color: #000;
 	font-weight: bold;
 	font-size: 1.1em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+footer .item1 {
+	padding-left: 15px;
+	float: left;
+}
+footer .item2 {
+	padding-right: 15px;
+	float: right;
+}
+footer .item2 > a, a:visited {
+	color: #000;
+}
+footer .item2 > a:hover, a:focus, a:active {
+	color: gray;
+}
+
+
+
+@media only screen and (max-width: 1280px){
+    body {
+		min-width: 1280px;
+		width: 1280px;
+	}
+	header .marginA {
+		margin-left: 250px;
+	}
+	footer .item1, .item2 {
+		color: #000;
+		font-weight: bold;
+		font-size: 1.1em;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	footer .item1 {
+		padding-left: 10px;
+		float: left;
+	}
+	footer .item2 {
+		padding-right: 10px;
+		float: right;
+	}
 }
