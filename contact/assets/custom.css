@@ -22,7 +22,7 @@
 	width: 1050px;
 	height: 650px;
 }
-.contiframe_mobile {
+.contiframemobile {
 	display: none;
 	visibility: hidden;
 }
@@ -35,7 +35,7 @@
 		width: 75%;
 		text-align: left;
 	}
-	iframe {
+	.contiframe {
 		width: 650px;
 		height: 650px;
 	}
@@ -59,7 +59,7 @@
 		display: none;
 		visibility: hidden;
 	}
-	.contiframe_mobile {
+	.contiframemobile {
 		display: block;
 		visibility: visible;
 		margin: 0 auto;
