@@ -9,7 +9,7 @@
     display: inline-block;
     background: lightgray;
     border-radius: 15px;
-    width: 500px;
+    width: 550px;
     height: 400px;
     margin-right: 15px;
     margin-top: 15px;
@@ -22,7 +22,7 @@
 .newimg {
     display: block;
     margin: 0 auto;
-    width: 450px;
+    width: 500px;
 }
 .newitemdesc {
     text-align: center;
