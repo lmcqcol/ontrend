@@ -39,7 +39,7 @@ header img {
 header .marginA {
 	margin-left: 28%;
 }
-header a {
+header a:not(.imga) {
 	float: left;
 	display: block;
   	color: #000 !important;
@@ -50,7 +50,7 @@ header a {
 	transform: translateY(55%);
 	transition: all 0.3s ease;
 }
-header a:hover {
+header a:not(.imga):hover {
   	background-color: #ddd;
   	color: #000;
 	transition: all 0.3s ease;
@@ -100,7 +100,7 @@ footer div {
 	header {
 		font-size: 2em;
 	}
-	header a {
+	header a:not(.imga) {
 		padding: 5px 20px;
 		transform: translateY(55%);
 	}
